@@ -1,0 +1,92 @@
+body {
+	background-color: pink;
+	font-family:Jazz LET;
+	font-weight:600;
+}
+
+.container {
+	max-width:2000px;
+	margin:auto;
+	font-family:sans-serif;
+}
+
+.month {
+	text-align:center;
+	background:rgb(148, 250, 208);
+	font-size:2.5em;
+	letter-spacing:1px;
+	color:black;
+	padding:25;
+	border:1px solid skyblue;
+}
+
+table, th, td {
+	width:100%;
+	table-layout:fixed;
+	text-align:center;
+	font-size:17px;
+	border-collapse:collapse;
+	border:1px solid skyblue;
+}
+
+tr, th, td{
+	padding:15px;
+}
+
+.noms{
+	background:rgb(115, 115, 255);
+	color:white;
+}
+
+.catégories{
+    background: darkseagreen;
+    color: white;
+}
+
+.description{
+    background: cadetblue;
+    color: white;
+}
+
+.lien{
+    background: darkcyan;
+    color: white;
+}
+
+td{
+    background: darkkhaki;
+    color: white;
+}
+
+.achat{
+    background: rgb(142, 216, 191);
+    color: white;
+}
+
+.achat2{
+    background: rgb(200, 228, 155);
+    color: white;
+}
+
+.urgents{
+    background: rgb(88, 133, 123);
+    color: white;
+}
+
+.normaux{
+    background: rgb(111, 84, 141);
+    color: white;
+}
+
+.button {
+    border: 0;
+    line-height: 3.5;
+    padding: 0 50px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(159, 220, 248);
+    font-weight:bold; 
+    position: absolute; 
+    color: aliceblue;      				
+}
